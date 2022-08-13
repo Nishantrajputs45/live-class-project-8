@@ -4,6 +4,7 @@
 }
 body {
   background: url("../images/backcover.svg") no-repeat right;
+  background-size: 45rem 45rem;
 }
 .main-div {
   display: flex;
@@ -36,21 +37,21 @@ body {
   color: #ffffff;
   border-radius: 2rem;
   border: none;
-  background: linear-gradient(90deg, #965cf2 50%, #f083df 50%);
+  background: linear-gradient(90deg, #965cf2 30%, #f083df 70%);
 }
 .intro-section {
   display: flex;
+  width: 90vw;
+  align-self: flex-end;
+  justify-content: space-between;
 }
 
 .left-section {
-  width: 18rem;
-  height: 20rem;
-  position: relative;
-  left: 10rem;
-  top: 6rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 16rem;
+  height: 30rem;
   color: #444c97;
 }
 .left-section h1 {
@@ -61,10 +62,32 @@ body {
 }
 .learn-more-btn {
   width: 10rem;
-  height: 2rem;
+  height: 2.5rem;
   font-size: 15px;
   border: none;
   border-radius: 2rem;
-  align-self: center;
-  background: linear-gradient(90deg, #965cf2 50%, #f083df 50%);
+  color: #ffffff;
+  background: linear-gradient(90deg, #965cf2 30%, #f083df 70%);
+}
+
+.imgs-div {
+  width: 67rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.intro-img {
+  width: 40rem;
+  height: 37rem;
+}
+.vector-img {
+  align-self: flex-end;
+  position: relative;
+  left: 12rem;
+  bottom: 6rem;
+}
+.vector-dot {
+  align-self: flex-end;
+  position: relative;
+  left: 5rem;
+  bottom: 12rem;
 }
